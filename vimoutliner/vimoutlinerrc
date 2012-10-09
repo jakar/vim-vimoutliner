@@ -27,6 +27,9 @@ let g:vo_modules_load = "checkbox"
 "setlocal background=dark		" for dark backgrounds
 setlocal nowrap
 
+" Disable first-column markers
+setlocal foldcolumn=0
+
 "Hoisting ***********************************************************
 "Uncomment and set to 1 to debug hoisting
 "let g:hoistParanoia=0
